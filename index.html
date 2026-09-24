@@ -48,7 +48,7 @@ tailwind.config = {
     <h2 class="embossed-gold text-lg font-bold tracking-wider">PAIGE INTEC — SETUP REQUIRED</h2>
     <p class="text-xs text-gray-300">Before you can use the app, please complete every field in Company. VAT Number may say "Not Registered" if you're not VAT registered — but the field must be filled.</p>
     <div id="lock-missing" class="text-[11px] text-red-400"></div>
-    <button onclick="switchTab('company')" class="w-full gold-btn py-3 rounded text-xs font-bold uppercase">Go to Company Setup</button>
+    <button onclick="document.getElementById('lock-overlay').classList.add('hidden'); switchTab('company')" class="w-full gold-btn py-3 rounded text-xs font-bold uppercase">Go to Company Setup</button>
   </div>
 </div>
 
